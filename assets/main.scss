@@ -1,0 +1,7 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+@import
+"bootstrap-variables", // Include our custom bootstrap variables to overwrite the ones below - https://v4-alpha.getbootstrap.com/getting-started/options/#content
+"bootstrap", // https://v4-alpha.getbootstrap.com/getting-started/download/#bower - The bootstrap sass files should never be edited directly
+"docs" // Anything that make things move around in regards to layout / a little like a custom style sheet
