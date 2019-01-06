@@ -2,111 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c701fcb-9261-4dbc-b67a-083b075f8b0e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/_custom.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/disqus_comments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/google-analytics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/icon-github.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/icon-github.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/icon-twitter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/icon-twitter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_docs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_navbar-align.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config_dev.yml" afterPath="$PROJECT_DIR$/_config_dev.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_bootstrap-variables.scss" afterPath="$PROJECT_DIR$/_sass/_bootstrap-variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_bootstrap.scss" afterPath="$PROJECT_DIR$/_sass/_bootstrap.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_alert.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_alert.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_badge.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_badge.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_breadcrumb.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_breadcrumb.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_button-group.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_button-group.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_buttons.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_card.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_card.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_carousel.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_carousel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_close.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_close.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_code.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_code.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_custom-forms.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_custom-forms.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_dropdown.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_dropdown.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_forms.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_forms.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_functions.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_functions.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_grid.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_images.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_images.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_input-group.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_input-group.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_jumbotron.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_jumbotron.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_list-group.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_list-group.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_media.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_media.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_mixins.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_modal.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_modal.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_nav.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_nav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_navbar.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_navbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_pagination.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_pagination.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_popover.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_popover.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_print.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_print.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_progress.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_progress.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_reboot.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_reboot.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_tables.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_tables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_tooltip.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_tooltip.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_transitions.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_transitions.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_type.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_type.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_utilities.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_utilities.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_variables.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/bootstrap-grid.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/bootstrap-grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/bootstrap-reboot.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/bootstrap-reboot.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/bootstrap.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/bootstrap.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_alert.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_alert.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_background-variant.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_background-variant.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_badge.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_badge.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_border-radius.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_border-radius.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_box-shadow.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_box-shadow.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_breakpoints.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_breakpoints.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_clearfix.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_clearfix.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_float.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_float.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_forms.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_forms.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_gradients.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_gradients.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_grid-framework.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_grid-framework.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_grid.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_hover.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_hover.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_image.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_image.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_list-group.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_list-group.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_lists.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_lists.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_nav-divider.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_nav-divider.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_pagination.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_pagination.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_reset-text.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_reset-text.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_resize.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_resize.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_screen-reader.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_screen-reader.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_size.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_size.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_table-row.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_table-row.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_text-emphasis.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_text-emphasis.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_text-hide.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_text-hide.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_text-truncate.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_text-truncate.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_transition.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_transition.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_visibility.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/mixins/_visibility.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_align.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_align.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_background.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_background.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_borders.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_borders.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_clearfix.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_clearfix.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_display.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_display.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_embed.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_embed.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_flex.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_flex.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_float.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_float.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_position.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_position.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_screenreaders.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_screenreaders.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_sizing.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_sizing.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_spacing.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_spacing.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_text.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_text.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_visibility.scss" afterPath="$PROJECT_DIR$/_sass/bootstrap-4/scss/utilities/_visibility.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/assets/main.css" afterPath="$PROJECT_DIR$/_site/assets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/main.scss" afterPath="$PROJECT_DIR$/assets/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.md" afterPath="$PROJECT_DIR$/index.md" />
     </list>
     <ignored path="nicoleandadam.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -137,13 +37,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config_dev.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config_dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+            <state relative-caret-position="133">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding>
-                <element signature="e#2522#2528#0" expanded="true" />
+                <element signature="e#2523#2529#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,13 +106,13 @@
         <option value="$PROJECT_DIR$/assets/main.scss" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/_includes/google-analytics.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_config_dev.yml" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_sass/_custom.scss" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_config_dev.yml" />
       </list>
     </option>
   </component>
@@ -357,12 +277,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546692430746</updated>
-      <workItem from="1546692432085" duration="3343000" />
+      <workItem from="1546692432085" duration="3755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3343000" />
+    <option name="totallyTimeSpent" value="3755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-516" width="2560" height="1417" extended-state="6" />
@@ -516,14 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/google-analytics.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -552,22 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -615,13 +511,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+        <state relative-caret-position="133">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
-            <element signature="e#2522#2528#0" expanded="true" />
+            <element signature="e#2523#2529#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
