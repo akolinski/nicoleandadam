@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab:300,400" rel="stylesheet">
     <link href="./assets/main.css" rel="stylesheet">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+  <body id="top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom">
       <div class="container">
+        <a class="navbar-brand smoothscroll" href="#top">N <span class="accent">&</span> A</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,7 +24,7 @@
               <a class="nav-link smoothscroll" href="#location">Location</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link smoothscroll" href="#places-to-stay">Places to stay</a>
+              <a class="nav-link smoothscroll" href="#places-to-stay">Stay</a>
             </li>
             <li class="nav-item">
               <a class="nav-link smoothscroll" href="#gifts">Gifts</a>
@@ -35,26 +36,29 @@
         </div>
       </div>
     </nav>
-    <header class="masthead text-center text-white">
-      <div class="masthead-content">
-        <div class="container">
-          <h1 class="masthead-heading mb-0">Nicole & Adam</h1>
-          <h2 class="masthead-subheading mb-0">- We are Getting Married -</h2>
-          <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
+    <header class="text-center text-white">
+      <div class="container h-100">
+        <div class="row align-items-center h-100">
+          <div class="col-12 mx-auto">
+            <h1 class="display-1 mb-0">Nicole & Adam</h1>
+            <h2 class="mb-0">- We are Getting Married -</h2>
+            <a href="#rsvp" class="btn btn-light btn-lg mt-5 smoothscroll">RSVP</a>
+          </div>
         </div>
       </div>
-      <div class="bg-circle-1 bg-circle"></div>
-      <div class="bg-circle-2 bg-circle"></div>
-      <div class="bg-circle-3 bg-circle"></div>
-      <div class="bg-circle-4 bg-circle"></div>
     </header>
     <main class="page-content" aria-label="Content">
         {{ content }}
     </main>
-    <footer class="py-5 bg-black">
-      <div class="container">
-        <p class="m-0 text-center text-white small">&copy; Nicole and Adam {{ site.time | date: '%Y' }}</p>
-        <p class="m-0 text-center text-white small">Website developed by <a target="_blank" href="https://makeaweb.com.au/">MAKE A WEB</a></p>
+    <footer id="thank-you">
+      <div class="full-width-background-thank-you">
+        <div class="container h-100">
+          <div class="row align-items-center h-100">
+            <div class="col-6 mx-auto">
+              <p class="display-1 text-white">Thank you</p>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
     <!-- Optional JavaScript -->
@@ -68,7 +72,7 @@
       // Intialize smoothscroll library - https://github.com/cferdinandi/smooth-scroll
       if ($('.smoothscroll').length) {
           var scroll = new SmoothScroll('.smoothscroll', {
-              speed: 1000,
+              speed: 400,
               offset: 150
           });
       }
