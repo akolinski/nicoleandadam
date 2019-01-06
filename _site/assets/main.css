@@ -7736,7 +7736,7 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 header {
-  background-image: url(/assets/images/banner.jpg);
+  background-image: url("./../assets/images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 center;
@@ -7755,28 +7755,28 @@ header {
   font-family: "Oswald", sans-serif; }
 
 .full-width-background-1 {
-  background-image: url("/assets/images/cronulla.jpg");
+  background-image: url("./../assets/images/cronulla.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 center;
   height: 480px; }
 
 .full-width-background-2 {
-  background-image: url("/assets/images/location.jpg");
+  background-image: url("./../assets/images/location.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 center;
   height: 480px; }
 
 .full-width-background-3 {
-  background-image: url("/assets/images/gift-registry.jpg");
+  background-image: url("./../assets/images/gift-registry.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 center;
   height: 480px; }
 
 .full-width-background-thank-you {
-  background-image: url("/assets/images/grass.jpg");
+  background-image: url("./../assets/images/grass.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 center;
@@ -7808,3 +7808,7 @@ p.lead {
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0rem; }
+
+.heart-offset {
+  position: relative;
+  left: -20px; }
