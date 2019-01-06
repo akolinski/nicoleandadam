@@ -6884,3 +6884,24 @@ header.masthead {
     border-color: #545b62 !important; }
   .btn-secondary:focus {
     box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); }
+
+.full-width-background-4 {
+  background-image: url(/assets/images/be-married.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  height: 500px; }
+
+.full-width-background-5 {
+  background-image: url(/assets/images/gift-registry-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  height: 500px; }
+
+.full-width-background-thank-you {
+  background-image: url(/assets/images/grass.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  height: 500px; }

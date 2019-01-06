@@ -144,3 +144,29 @@ header.masthead {
     box-shadow: 0 0 0 0.2rem fade-out($secondary, 0.5);
   }
 }
+
+// Backgrounds
+
+.full-width-background-4 {
+  background-image: url(/assets/images/be-married.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  height: 500px;
+}
+
+.full-width-background-5 {
+  background-image: url(/assets/images/gift-registry-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  height: 500px;
+}
+
+.full-width-background-thank-you {
+  background-image: url(/assets/images/grass.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  height: 500px;
+}
