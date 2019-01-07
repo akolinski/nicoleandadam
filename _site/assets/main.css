@@ -7821,3 +7821,7 @@ p.lead {
   top: 0px !important;
   z-index: 1 !important;
   width: 100% !important; }
+
+.nicole-and-adam-img {
+  width: 250px;
+  border-radius: 50%; }

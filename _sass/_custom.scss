@@ -105,13 +105,12 @@ p.lead {
 // Inspired from - http://demo.dethemes.com/story/topbar-onepage/
 
 // @TODO
-// Add mailchimp form, Name, Email, I will attend? Yes or No, Dietary requirements, Song choice
-// Get nicole to create content for all the sections
+// Dietary requirements - text field
 // Bring in button animation click css
 // Get hamburger in for mobile and fix mobile navigation styles
 // Add a more info section like the demo above
-// Add photo of me and nicole under countdown rounded
 // Opacity for text in banner
+// Add more info section like the demo site above
 
 #mc_embed_signup div.response {
   margin: 0 !important;
@@ -121,4 +120,9 @@ p.lead {
   top: 0px !important;
   z-index: 1 !important;
   width: 100% !important;
+}
+
+.nicole-and-adam-img {
+  width: 250px;
+  border-radius: 50%;
 }
