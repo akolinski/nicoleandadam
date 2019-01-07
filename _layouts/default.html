@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald%7CRoboto+Slab:300,400" rel="stylesheet">
     <link href="./assets/main.css" rel="stylesheet">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   </head>
   <body id="top">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom">
@@ -19,10 +20,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link smoothscroll" href="#date">Date</a>
+              <a class="nav-link smoothscroll" href="#date">When</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link smoothscroll" href="#location">Location</a>
+              <a class="nav-link smoothscroll" href="#location">Where</a>
             </li>
             <li class="nav-item">
               <a class="nav-link smoothscroll" href="#places-to-stay">Stay</a>
@@ -42,7 +43,7 @@
         <div class="row align-items-center h-100">
           <div class="col-12 mx-auto">
             <h1 class="display-1 mb-3">Nicole & Adam</h1>
-            <h2 class="display-4 mb-0">- We are Getting Married -</h2>
+            <h2 class="display-4 mb-0">- Are Getting Married -</h2>
             <a href="#rsvp" class="btn btn-light btn-lg mt-4 smoothscroll">RSVP</a>
           </div>
         </div>
@@ -98,15 +99,16 @@
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Display the result in the element with id="demo"
-        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
+        // document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+        document.getElementById("countdown").innerHTML = days + " days away";
 
         // If the count down is finished, write some text
         if (distance < 0) {
           clearInterval(x);
-          document.getElementById("demo").innerHTML = "EXPIRED";
+          document.getElementById("countdown").innerHTML = "EXPIRED";
         }
       }, 1000);
     </script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';fnames[2]='ATTENDING';ftypes[2]='radio';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
   </body>
 </html>

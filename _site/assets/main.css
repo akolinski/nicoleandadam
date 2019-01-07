@@ -7812,3 +7812,12 @@ p.lead {
 .heart-offset {
   position: relative;
   left: -20px; }
+
+#mc_embed_signup div.response {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-weight: normal !important;
+  float: left !important;
+  top: 0px !important;
+  z-index: 1 !important;
+  width: 100% !important; }
