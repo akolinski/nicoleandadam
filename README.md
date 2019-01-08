@@ -1,9 +1,11 @@
-# docs
-Documenting using Jekyll.
+# Nicole and Adam
+Wedding website with information and ability to RSVP
 
-```
-bundle exec jekyll serve --config _config.yml, _config_dev.yml --port 4444 --watch
-```
+View: http://bit.ly/040420
+
+## Development
+
+Created using Jekyll and Bootstrap 4
 
 ```
 bundle exec jekyll serve --watch

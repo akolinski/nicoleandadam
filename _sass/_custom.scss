@@ -1,4 +1,11 @@
-$theme-primary: #f08080;
+// Inspired from - http://demo.dethemes.com/story/topbar-onepage/
+
+// @TODO
+// Dietary requirements - text field
+// Get hamburger in for mobile and fix mobile navigation styles
+// Add a more info section like the demo above
+
+$theme-primary: #feba5c;
 
 // Type smoothing for your website - https://gist.github.com/akolinski/19966c8f70a43ef45e7f06878a87a464
 
@@ -13,8 +20,28 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 center;
-  height: 800px;
   position: relative;
+  height: 450px;
+  @include media-breakpoint-up(lg) {
+      height: 80vh;
+      min-height: 600px;
+  }
+}
+
+.custom-text-shadow {
+    text-shadow: 0px 0px 6px rgba(0,0,0,0.4);
+}
+
+.bg-theme {
+    background: $theme-primary;
+}
+
+.countdown {
+    min-height: 121px;
+
+    .display-2 {
+        line-height: 1.5;
+    }
 }
 
 .navbar-custom {
@@ -41,14 +68,6 @@ header {
 }
 
 .full-width-background-2 {
-  background-image: url('./../assets/images/location.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 center;
-  height: 480px;
-}
-
-.full-width-background-3 {
   background-image: url('./../assets/images/gift-registry.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -97,20 +116,7 @@ p.lead {
   border-radius: 0rem;
 }
 
-.heart-offset {
-  position: relative;
-  left: -20px;
-}
-
-// Inspired from - http://demo.dethemes.com/story/topbar-onepage/
-
-// @TODO
-// Dietary requirements - text field
-// Bring in button animation click css
-// Get hamburger in for mobile and fix mobile navigation styles
-// Add a more info section like the demo above
-// Opacity for text in banner
-// Add more info section like the demo site above
+// Mailchimp form
 
 #mc_embed_signup div.response {
   margin: 0 !important;
@@ -125,4 +131,70 @@ p.lead {
 .nicole-and-adam-img {
   width: 250px;
   border-radius: 50%;
+}
+
+// Fix known word wrap issue with bootstrap buttons - https://stackoverflow.com/questions/18996202/twitter-bootstrap-button-text-word-wrap/27773448#27773448
+.btn {
+    font-weight: 500;
+    white-space: normal !important;
+    word-wrap: break-word;
+    transition: all 100ms ease-in-out;
+    text-decoration: none !important;
+    border-radius: $border-radius-lg;
+
+    // Make buttons look like they are being pressed.
+    &:active{
+        transition: all 100ms ease;
+        transform: translateY(1px);
+    }
+}
+
+// White button variants
+
+.btn-white {
+    @include button-variant(#FFF, #FFF);
+}
+
+.btn-outline-white {
+    @include button-outline-variant(#FFF, #FFF);
+
+    &:hover, &:focus {
+        background: none;
+    }
+}
+
+// Remove focus outline from buttons
+button:focus, a:focus {
+    outline: none;
+}
+
+.btn-sm {
+    border-width: 1px;
+}
+
+// Lets make a handy class to manage div elements that are anchors but we don't want text to have anchor styles
+.no-anchor-styles {
+    text-decoration: none !important;
+
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
+// For usage with anchors if you want a hover interaction to show an underline
+.underline-on-hover {
+    &:hover {
+        text-decoration: underline !important;
+    }
+}
+
+// For usage with anchors if you want a hover interaction to remove the underline
+.no-underline-on-hover {
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
+a {
+    text-decoration: underline;
 }

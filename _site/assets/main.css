@@ -7740,8 +7740,23 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 center;
-  height: 800px;
-  position: relative; }
+  position: relative;
+  height: 450px; }
+  @media (min-width: 992px) {
+    header {
+      height: 80vh;
+      min-height: 600px; } }
+
+.custom-text-shadow {
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); }
+
+.bg-theme {
+  background: #feba5c; }
+
+.countdown {
+  min-height: 121px; }
+  .countdown .display-2 {
+    line-height: 1.5; }
 
 .navbar-custom {
   text-transform: uppercase;
@@ -7762,13 +7777,6 @@ header {
   height: 480px; }
 
 .full-width-background-2 {
-  background-image: url("./../assets/images/location.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 center;
-  height: 480px; }
-
-.full-width-background-3 {
   background-image: url("./../assets/images/gift-registry.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -7790,7 +7798,7 @@ h3, .h3 {
   font-size: 48px; }
 
 .accent {
-  color: #f08080; }
+  color: #feba5c; }
 
 p.lead {
   color: #333;
@@ -7809,10 +7817,6 @@ p.lead {
   line-height: 1.5;
   border-radius: 0rem; }
 
-.heart-offset {
-  position: relative;
-  left: -20px; }
-
 #mc_embed_signup div.response {
   margin: 0 !important;
   padding: 0 !important;
@@ -7825,3 +7829,78 @@ p.lead {
 .nicole-and-adam-img {
   width: 250px;
   border-radius: 50%; }
+
+.btn {
+  font-weight: 500;
+  white-space: normal !important;
+  word-wrap: break-word;
+  transition: all 100ms ease-in-out;
+  text-decoration: none !important;
+  border-radius: 0.3rem; }
+  .btn:active {
+    transition: all 100ms ease;
+    transform: translateY(1px); }
+
+.btn-white {
+  color: #212529;
+  background-color: #FFF;
+  border-color: #FFF; }
+  .btn-white:hover {
+    color: #212529;
+    background-color: #ececec;
+    border-color: #e6e6e6; }
+  .btn-white:focus, .btn-white.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+  .btn-white.disabled, .btn-white:disabled {
+    color: #212529;
+    background-color: #FFF;
+    border-color: #FFF; }
+  .btn-white:not(:disabled):not(.disabled):active, .btn-white:not(:disabled):not(.disabled).active, .show > .btn-white.dropdown-toggle {
+    color: #212529;
+    background-color: #e6e6e6;
+    border-color: #dfdfdf; }
+    .btn-white:not(:disabled):not(.disabled):active:focus, .btn-white:not(:disabled):not(.disabled).active:focus, .show > .btn-white.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+
+.btn-outline-white {
+  color: #FFF;
+  background-color: transparent;
+  background-image: none;
+  border-color: #FFF; }
+  .btn-outline-white:hover {
+    color: #FFF;
+    background-color: #FFF;
+    border-color: #FFF; }
+  .btn-outline-white:focus, .btn-outline-white.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+  .btn-outline-white.disabled, .btn-outline-white:disabled {
+    color: #FFF;
+    background-color: transparent; }
+  .btn-outline-white:not(:disabled):not(.disabled):active, .btn-outline-white:not(:disabled):not(.disabled).active, .show > .btn-outline-white.dropdown-toggle {
+    color: #212529;
+    background-color: #FFF;
+    border-color: #FFF; }
+    .btn-outline-white:not(:disabled):not(.disabled):active:focus, .btn-outline-white:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-white.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+  .btn-outline-white:hover, .btn-outline-white:focus {
+    background: none; }
+
+button:focus, a:focus {
+  outline: none; }
+
+.btn-sm, .btn-group-sm > .btn {
+  border-width: 1px; }
+
+.no-anchor-styles {
+  text-decoration: none !important; }
+  .no-anchor-styles:hover {
+    text-decoration: none !important; }
+
+.underline-on-hover:hover {
+  text-decoration: underline !important; }
+
+.no-underline-on-hover:hover {
+  text-decoration: none !important; }
+
+a {
+  text-decoration: underline; }
