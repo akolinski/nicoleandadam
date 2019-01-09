@@ -1,8 +1,5 @@
 // Inspired from - http://demo.dethemes.com/story/topbar-onepage/
 
-// @TODO
-// Get hamburger in for mobile and fix mobile navigation styles
-
 $theme-primary: #ffbd57;
 
 // Type smoothing for your website - https://gist.github.com/akolinski/19966c8f70a43ef45e7f06878a87a464
@@ -14,7 +11,7 @@ body {
 }
 
 header {
-    background-image: url('./../assets/images/banner.jpg');
+    background-image: url('./../assets/images/hand-love.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 center;
@@ -31,7 +28,7 @@ header {
 }
 
 .bg-theme {
-    background: $theme-primary;
+    background: rgba(255, 189, 87, 0.8);
 }
 
 .countdown {
@@ -239,4 +236,8 @@ a {
     padding: 8px 12px;
     width: 50%;
     color: $success;
+}
+
+.title-offset {
+    top: -5px;
 }
