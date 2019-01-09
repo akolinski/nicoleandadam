@@ -7748,7 +7748,7 @@ header {
       min-height: 600px; } }
 
 .custom-text-shadow {
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4); }
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.9); }
 
 .bg-theme {
   background: #feba5c; }
@@ -7774,21 +7774,50 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 center;
-  height: 480px; }
+  height: 200px; }
+  @media (min-width: 768px) {
+    .full-width-background-1 {
+      height: 450px; } }
 
 .full-width-background-2 {
   background-image: url("./../assets/images/gift-registry.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 center;
-  height: 480px; }
+  height: 200px; }
+  @media (min-width: 768px) {
+    .full-width-background-2 {
+      height: 450px; } }
 
 .full-width-background-thank-you {
   background-image: url("./../assets/images/grass.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 center;
-  height: 500px; }
+  height: 200px; }
+  @media (min-width: 768px) {
+    .full-width-background-thank-you {
+      height: 450px; } }
+
+.full-width-background-be-married {
+  background-image: url("./../assets/images/be-married.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  height: 200px; }
+  @media (min-width: 768px) {
+    .full-width-background-be-married {
+      height: 450px; } }
+
+.full-width-background-love {
+  background-image: url("./../assets/images/love.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 76%;
+  height: 200px; }
+  @media (min-width: 768px) {
+    .full-width-background-love {
+      height: 450px; } }
 
 .display-1, .display-2, .display-3, .display-4 {
   font-family: "Oswald", sans-serif !important;
@@ -7802,9 +7831,13 @@ h3, .h3 {
 
 p.lead {
   color: #333;
-  font-size: 22px;
-  line-height: 42px;
-  margin-bottom: 42px; }
+  margin-bottom: 42px;
+  font-size: 20px;
+  line-height: 32px; }
+  @media (min-width: 768px) {
+    p.lead {
+      font-size: 22px;
+      line-height: 42px; } }
 
 .btn-light {
   color: #343434;
@@ -7816,15 +7849,6 @@ p.lead {
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0rem; }
-
-#mc_embed_signup div.response {
-  margin: 0 !important;
-  padding: 0 !important;
-  font-weight: normal !important;
-  float: left !important;
-  top: 0px !important;
-  z-index: 1 !important;
-  width: 100% !important; }
 
 .nicole-and-adam-img {
   width: 250px;
@@ -7904,3 +7928,14 @@ button:focus, a:focus {
 
 a {
   text-decoration: underline; }
+
+#mc-embedded-subscribe-form input.mce_inline_error {
+  border-color: #dc3545 !important; }
+
+#mce-success-response {
+  margin-top: 20px;
+  border: solid 1px #28a745;
+  border-radius: 6px;
+  padding: 8px 12px;
+  width: 50%;
+  color: #28a745; }
