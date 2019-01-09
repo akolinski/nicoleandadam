@@ -21,6 +21,7 @@ header {
         height: 80vh;
         min-height: 600px;
     }
+    margin-top: 58px;
 }
 
 .custom-text-shadow {
@@ -32,7 +33,10 @@ header {
 }
 
 .countdown {
-    min-height: 121px;
+    min-height: 62px;
+    @include media-breakpoint-up(lg) {
+        min-height: 121px;
+    }
 
     .display-2 {
         line-height: 1.5;
@@ -42,7 +46,7 @@ header {
 .navbar-custom {
     text-transform: uppercase;
     font-size: 18px;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.08);
     background: #fdfdfd !important;
     border: none !important;
 }
@@ -119,8 +123,39 @@ header {
     text-transform: uppercase;
 }
 
+.display-1 {
+    font-size: 2.8rem;
+    @include media-breakpoint-up(md) {
+        font-size: 6rem;
+    }
+}
+
+.display-2 {
+    font-size: 2.6rem;
+    @include media-breakpoint-up(md) {
+        font-size: 5.5rem;
+    }
+}
+
+.display-4 {
+    font-size: 1.8rem;
+    @include media-breakpoint-up(md) {
+        font-size: 3.5rem;
+    }
+}
+
 h3, .h3 {
-    font-size: 48px;
+    font-size: 2rem;
+    @include media-breakpoint-up(md) {
+        font-size: 3rem;
+    }
+}
+
+h4, .h4 {
+    font-size: 1.4rem;
+    @include media-breakpoint-up(md) {
+        font-size: 1.5rem;
+    }
 }
 
 .accent {
@@ -141,7 +176,19 @@ p.lead {
 
 .btn-light {
     color: #343434;
-    background-color: #fdfdfd;
+    background-color: #FFF;
+    border-color: #343434;
+
+    &:hover, &:focus {
+        color: #343434;
+        background-color: #f3f3f3;
+        border-color: #343434;
+    }
+}
+
+.btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, .show > .btn-light.dropdown-toggle {
+    color: #343434;
+    background-color: #f3f3f3;
     border-color: #343434;
 }
 
@@ -219,10 +266,6 @@ button:focus, a:focus {
     }
 }
 
-a {
-    text-decoration: underline;
-}
-
 // Mailchimp form
 
 #mc-embedded-subscribe-form input.mce_inline_error {
@@ -240,4 +283,53 @@ a {
 
 .title-offset {
     top: -5px;
+}
+
+// Bring in bootstrap 3 navbar toggle icon bars so we can animate them
+.navbar-toggler {
+    padding: 14px;
+    border-color: $dark !important;
+
+    .icon-bar {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: $dark;
+
+        +.icon-bar {
+            margin-top: 4px;
+        }
+    }
+}
+
+
+// Animate nav collapse icon - Pure css solution no jQuery - https://codepen.io/akolinski/pen/yagwNN
+.animated-collapse-icon {
+    $speed: 200ms;
+    $easing: cubic-bezier(0.7, 0, 0, 0.7);
+
+    .navbar-toggler {
+        overflow: hidden;
+
+        .icon-bar {
+            transition: opacity, transform;
+            transition-duration: $speed;
+            transition-timing-function: $easing;
+        }
+
+        &:not(.collapsed) {
+            .icon-bar {
+                &:nth-child(1) {
+                    transform: translateY(6px) rotate(45deg);
+                }
+                &:nth-child(2) {
+                    opacity: 0;
+                    transform: translateX(-100%);
+                }
+                &:nth-child(3) {
+                    transform: translateY(-6px) rotate(-45deg);
+                }
+            }
+        }
+    }
 }
