@@ -49,6 +49,14 @@ header {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.08);
     background: #fdfdfd !important;
     border: none !important;
+
+    .nav-link {
+        border-bottom: solid 2px #FFF;
+    }
+
+    .nav-link.active {
+        border-bottom: solid 2px #f7bf61;
+    }
 }
 
 .navbar-light .navbar-nav .nav-link {
