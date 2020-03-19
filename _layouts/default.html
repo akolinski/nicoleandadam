@@ -71,7 +71,8 @@
         <div class="row align-items-center h-100">
             <div class="col-12 mx-auto">
                 <h1 class="display-1 mb-3 custom-text-shadow">Nicole & Adam</h1>
-                <h2 class="display-4 mb-0 custom-text-shadow">- Are Getting Married -</h2>
+                <h2 class="display-4 mb-3 custom-text-shadow">- Are Still Getting Married -</h2>
+                <h2 class="display-4 mb-0 custom-text-shadow">- Date to be announced -</h2>
                 <!-- <a href="#rsvp" class="btn btn-light btn-lg mt-4 smoothscroll">RSVP</a> -->
             </div>
         </div>
@@ -107,7 +108,7 @@
     }
     // Countdown script with expired  - https://codepen.io/p_elkoshairy/pen/jxNxaO
     // Set the date we're counting down to
-    var countDownDate = new Date("April 4, 2020 12:00:00").getTime();
+    var countDownDate = new Date("March 4, 2020 12:00:00").getTime();
     // Update the count down every 1 second
     var x = setInterval(function () {
         // Get todays date and time
@@ -121,7 +122,8 @@
         // If the count down is finished, write some text
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("countdown").innerHTML = "EXPIRED";
+            // document.getElementById("countdown").innerHTML = "EXPIRED";
+            document.getElementById("countdown").innerHTML = "Rescheduled";
         }
     }, 1000);
 </script>
